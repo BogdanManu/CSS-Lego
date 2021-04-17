@@ -1,0 +1,93 @@
+body{
+    margin: 20px;
+    padding: 20px;
+}
+.container{
+    margin:5rem;
+    height: 100%;
+}
+.articole{
+    display: block;
+}
+/* .articole{
+    margin: 20px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+} */
+.art1{
+    padding:10px;
+    border: 2px solid black;
+}
+.art2{
+    padding:10px;
+    border: 2px solid black;
+}
+.art3{
+    padding:10px;
+    border: 2px solid black;
+}
+@media all and (min-width: 768px) {
+    .articole{
+        margin: 20px;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+}
+.formular{
+    padding: 20px;
+    display: flex;
+    display: block;
+    border: 1px black;
+    background-color: orange;
+}
+#email{
+    display: block;
+}
+#emailHelp{
+    display: block;
+}
+#passwd{
+    display: block;
+}
+#dropdown{
+    display: block;
+}
+.checkboxes{
+    display:inline-block;
+}
+#submitbutton{
+    margin:20px;
+    background-color: blue;
+    color: white;
+}
+#clearbutton{
+    background-color: orange;
+    color: red;
+    border: 1px solid red;
+}
+table,th,td {
+    width: fit-content;
+    border: 1px black;
+    margin: 0;
+    text-align: left;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th{
+    padding: 20px;
+}
+table{
+    margin: 50px;
+}
+/* thead > th{
+    border:2px solid black;
+} */
+thead th {
+    border-bottom: 3px black solid;
+}
