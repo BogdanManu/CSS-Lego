@@ -70,17 +70,18 @@ body{
     border: 1px solid red;
 }
 table,th,td {
-    width: fit-content;
+    width:fit-content;
     border: 1px black;
     margin: 0;
-    text-align: left;
-    padding: 5px;
-}
+    /* padding: px; */
+/* }
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 th{
     padding: 20px;
+    margin: 0;
+    text-align:left; */
 }
 table{
     margin: 50px;
@@ -91,3 +92,14 @@ table{
 thead th {
     border-bottom: 3px black solid;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
